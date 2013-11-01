@@ -43,7 +43,7 @@ public static void main(String[] args) {
 		names.addEdge(cardoso, world);
 		
 		GraphvizEngine engine = new GraphvizEngine(graph);
-		engine.type("png");
+		engine.addType("png");
 		engine.toFilePath("helloworld.png");
 		engine.output();
 		
